@@ -1,0 +1,172 @@
+{
+  "user": {
+    "name": "Shivani Firodiya",
+    "tagline": "Full Stack Developer & Software Engineer",
+    "subtitle": "Bringing ideas to reality with cutting-edge technology",
+    "email": "shivani311@duck.com",
+    "phone": "812-361-6398",
+    "location": "New York",
+    "github": "https://github.com/thumblas",
+    "linkedin": "https://linkedin.com/in/sbfirodiya"
+  },
+  "stats": {
+    "experience": "4+",
+    "projects": "10+"
+  },
+  "currentRole": {
+    "company": "Amazon",
+    "position": "Software Development Engineer",
+    "duration": "July 2020 - Present",
+    "location": "New York",
+    "description": "Launched Sponsored Display across 11 markets; re-architected a monolith into microservices; cut ad-serving latency by 50% with a high-throughput distributed cache; built geo-targeting; automated DynamoDB retention; migrated analytics to Spektr; delivered an MCP server with Amazon Q retrieval."
+  },
+  "education": {
+    "masters": {
+      "degree": "Master of Science in Computer Science",
+      "school": "Indiana University Bloomington",
+      "year": "May 2020",
+      "cgpa": "3.6"
+    },
+    "bachelors": {
+      "degree": "Bachelor of Engineering in Computer Engineering",
+      "school": "Pune Institute of Computer Technology",
+      "year": "May 2017"
+    }
+  },
+  "skills": {
+    "programmingLanguages": [
+      { "name": "Python", "icon": "fab fa-python", "color": "text-yellow-400" },
+      { "name": "Java", "icon": "fab fa-java", "color": "text-red-500" },
+      { "name": "C/C++", "icon": "fas fa-code", "color": "text-blue-400" },
+      { "name": "React", "icon": "fab fa-react", "color": "text-cyan-400" }
+    ],
+    "databases": [
+      { "name": "MySQL", "icon": "fas fa-database", "color": "text-orange-500" },
+      { "name": "MongoDB", "icon": "fas fa-leaf", "color": "text-green-500" },
+      { "name": "Apache Spark", "icon": "fas fa-fire", "color": "text-yellow-500" },
+      { "name": "IBM DB2", "icon": "fas fa-server", "color": "text-blue-500" }
+    ],
+    "machineLearning": [
+      { "name": "Scikit-learn", "icon": "fas fa-chart-line", "color": "text-green-500", "description": "Machine Learning" },
+      { "name": "TensorFlow", "icon": "fas fa-brain", "color": "text-purple-500", "description": "Deep Learning Framework" },
+      { "name": "Matplotlib", "icon": "fas fa-chart-bar", "color": "text-indigo-500", "description": "Visualization" },
+      { "name": "NumPy", "icon": "fas fa-cube", "color": "text-blue-500", "description": "Array Computing" },
+      { "name": "Pandas", "icon": "fas fa-table", "color": "text-emerald-500", "description": "Data Analysis" },
+      { "name": "PyTorch", "icon": "fas fa-fire", "color": "text-red-500", "description": "Deep Learning" },
+      { "name": "PySpark", "icon": "fas fa-bolt", "color": "text-yellow-500", "description": "Distributed Computing" }
+    ],
+    "backendDevops": [
+      { "name": "Django", "icon": "fas fa-server", "color": "text-gray-500" },
+      { "name": "SpringBoot", "icon": "fas fa-spring", "color": "text-green-500" },
+      { "name": "Docker", "icon": "fab fa-docker", "color": "text-blue-400" },
+      { "name": "Jenkins", "icon": "fab fa-jenkins", "color": "text-red-500" },
+      { "name": "Kubernetes", "icon": "fas fa-dharmachakra", "color": "text-blue-600" },
+      { "name": "REST", "icon": "fas fa-network-wired", "color": "text-sky-500" },
+      { "name": "CI/CD", "icon": "fas fa-cogs", "color": "text-zinc-500" }
+    ]
+  },
+  "experiences": [
+    {
+      "id": "amazon",
+      "company": "Amazon",
+      "position": "Software Development Engineer",
+      "location": "New York",
+      "duration": "July 2020 - Present",
+      "description": "Launched Sponsored Display across 11 markets; re-architected monolith into 4 microservices; cut ad-serving latency by 50% (p95) with a distributed cache; built geo-targeting; migrated analytics pipelines to Spektr; delivered an MCP server with Amazon Q retrieval; automated DynamoDB retention via EventBridge-triggered Glue jobs.",
+      "type": "current",
+      "color": "electric-blue"
+    },
+    {
+      "id": "visa-intern",
+      "company": "VISA",
+      "position": "Sr. Software Engineer Intern",
+      "location": "Foster City, California",
+      "duration": "May 2019 - Aug 2019",
+      "description": "Worked on Digital Payments transaction processing; built a React dashboard for real-time progress tracking across teams; improved code coverage for the product codebase.",
+      "type": "internship",
+      "color": "electric-blue"
+    },
+    {
+      "id": "ibm-engineer",
+      "company": "IBM",
+      "position": "Associate Software Engineer",
+      "location": "Pune, India",
+      "duration": "July 2017 - July 2018",
+      "description": "Replaced legacy file-based installation with a database-backed approach; implemented a secure scalable REST-assured framework to automate QA unit testing in CI; containerized B2Bi and moved to production.",
+      "type": "fulltime",
+      "color": "neon-green"
+    },
+    {
+      "id": "ibm-intern",
+      "company": "IBM",
+      "position": "Software Developer Intern",
+      "location": "Pune, India",
+      "duration": "Sept 2016 - April 2017",
+      "description": "Completed a PoC using MongoDB instead of Apache SOLR for Contract Management; automated workflows using bash and Python scripting in existing product.",
+      "type": "internship",
+      "color": "neon-green"
+    }
+  ],
+  "projects": [
+    {
+      "id": "travel-guide",
+      "title": "Travel Guide",
+      "duration": "Jan 2019 - May 2019",
+      "description": "End-to-end cheapest travel plan application with microservice architecture supporting flight and cab search functionality.",
+      "technologies": ["Microservices", "Docker", "Kubernetes", "Jenkins"],
+      "highlights": ["Explored CI/CD pipeline and service discovery using Consul"],
+      "icon": "fas fa-plane",
+      "layout": "wide"
+    },
+    {
+      "id": "audio-sentiment",
+      "title": "Audio Sentiment Analysis",
+      "duration": "Aug 2018 - Dec 2018",
+      "description": "Implemented source separation using Gaussian Mixture Models and trained DNN on RAVDESS dataset for sentiment analysis.",
+      "technologies": ["ML", "DNN", "Audio Processing"],
+      "highlights": ["Gaussian Mixture Models", "RAVDESS Dataset"],
+      "icon": "fas fa-microphone",
+      "layout": "normal"
+    },
+    {
+      "id": "pargrep",
+      "title": "ParGrep",
+      "duration": "Aug 2018 - Dec 2018",
+      "description": "Parallel file search implementation using pthreads, achieving 50% performance improvement over traditional grep.",
+      "technologies": ["C/C++", "Threading", "Performance"],
+      "highlights": ["50% faster than grep"],
+      "icon": "fas fa-search",
+      "layout": "normal"
+    },
+    {
+      "id": "ctr-analysis",
+      "title": "Click Through Rate Analysis",
+      "duration": "July 2016 - May 2017",
+      "description": "Predicted click-through rates using CNN and Autoencoders to improve advertisement clickability and performance metrics.",
+      "technologies": ["CNN", "Autoencoders", "Deep Learning"],
+      "highlights": ["CNN Implementation", "Autoencoders"],
+      "icon": "fas fa-chart-bar",
+      "layout": "wide"
+    },
+    {
+      "id": "xodia-ai",
+      "title": "Xodia AI Competition",
+      "duration": "July 2014 - May 2017",
+      "description": "AI competition platform between programmed bots with judging framework, sandbox environment, and server-side rendering.",
+      "technologies": ["Django", "AI", "Game Development"],
+      "highlights": ["Enthronement", "Grow", "Ensquare"],
+      "games": [
+        { "name": "Enthronement", "icon": "fas fa-crown", "color": "text-yellow-500" },
+        { "name": "Grow", "icon": "fas fa-seedling", "color": "text-green-500" },
+        { "name": "Ensquare", "icon": "fas fa-square", "color": "text-blue-500" }
+      ],
+      "icon": "fas fa-robot",
+      "layout": "tall"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Don’t separate, Learn to Remix: End-to-End Neural Remixing with Joint Optimization"
+    }
+  ]
+}
