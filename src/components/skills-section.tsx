@@ -76,7 +76,7 @@ export default function SkillsSection() {
             </Reveal>
             
             {/* Machine Learning */}
-            <Reveal className="dark-glass rounded-3xl p-8 bento-tall" data-testid="machine-learning-section">
+            <Reveal className="dark-glass rounded-3xl p-8 bento-tall md:row-span-1" data-testid="machine-learning-section">
               <h3 className="text-xl font-bold gradient-text mb-6">ML & AI</h3>
               <div className="space-y-4">
                 {skills.machineLearning.map((ml: any) => (
@@ -96,7 +96,7 @@ export default function SkillsSection() {
             </Reveal>
             
             {/* Backend & DevOps */}
-            <Reveal className="dark-glass rounded-3xl p-8 bento-wide" data-testid="backend-devops-section">
+            <Reveal className="dark-glass rounded-3xl p-8 bento-wide md:col-span-1" data-testid="backend-devops-section">
               <h3 className="text-2xl font-bold gradient-text mb-8">Backend & DevOps</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                 {skills.backendDevops.map((tool: any) => (

@@ -12,6 +12,11 @@ const nextConfig = {
     // Allow building even if there are ESLint errors during initial migration
     ignoreDuringBuilds: true,
   },
+  async rewrites() {
+    return [
+      { source: '/resume', destination: '/resume.pdf' },
+    ];
+  },
 }
 
 export default nextConfig

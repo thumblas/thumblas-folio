@@ -1,19 +1,22 @@
 import { useEffect, useState } from "react";
+import { useContent } from "@/hooks/use-content";
 
-const navigationItems = [
+const baseNavigationItems = [
   { id: "hero", icon: "fas fa-home", label: "Home" },
   { id: "about", icon: "fas fa-user", label: "About" },
   { id: "experience", icon: "fas fa-briefcase", label: "Experience" },
   { id: "skills", icon: "fas fa-code", label: "Skills" },
   { id: "projects", icon: "fas fa-folder", label: "Projects" },
   { id: "contact", icon: "fas fa-envelope", label: "Contact" },
-  { id: "resume", icon: "fas fa-file", label: "Resume", href: "/resume.pdf" }
 ];
 
 export default function FloatingNavigation() {
   const [activeSection, setActiveSection] = useState("hero");
   const [isVisible, setIsVisible] = useState(false);
   const [isFooterVisible, setIsFooterVisible] = useState(false);
+  const { data: userData } = useContent("user");
+  const resumeHref = (userData?.content as any)?.resume || "/resume.pdf";
+  const navigationItems = [...baseNavigationItems, { id: "resume", icon: "fas fa-file", label: "Resume", href: resumeHref }];
 
   useEffect(() => {
     const handleScroll = () => {

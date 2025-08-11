@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import { useContent } from "@/hooks/use-content";
 
 export default function Header() {
   const [progress, setProgress] = useState(0);
+  const { data: userData } = useContent("user");
 
   useEffect(() => {
     const onScroll = () => {
@@ -18,7 +20,7 @@ export default function Header() {
   return (
     <header className="relative z-30 backdrop-blur-sm">
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-        <a href="#hero" className="font-black tracking-tight text-xl gradient-text">Shivani Firodiya</a>
+        <a href="#hero" className="font-black tracking-tight text-xl gradient-text">{(userData?.content as any)?.name || "Shivani Firodiya"}</a>
         <nav className="hidden sm:flex items-center gap-6 text-sm text-gray-700">
           <a href="#about" className="hover:text-[--primary]">About</a>
           <a href="#skills" className="hover:text-[--primary]">Skills</a>
@@ -26,7 +28,7 @@ export default function Header() {
           <a href="#projects" className="hover:text-[--primary]">Projects</a>
           <a href="#contact" className="hover:text-[--primary]">Contact</a>
           <a
-            href="/resume.pdf"
+            href={(userData?.content as any)?.resume || "/resume.pdf"}
             target="_blank"
             rel="noopener noreferrer"
             className="glassmorphism px-3 py-1.5 rounded-lg border border-[--border] hover:border-[--primary] transition-colors"
