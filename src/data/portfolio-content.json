@@ -3,77 +3,113 @@
     "name": "Shivani Firodiya",
     "tagline": "Full Stack Developer & Software Engineer",
     "subtitle": "Bringing ideas to reality with cutting-edge technology",
-    "email": "shivani311@duck.com",
-    "phone": "812-361-6398",
+    "resume": "/resume.pdf",
+    "email": "me@sbfirodiya.dev",
+    "phone": "(812)-361-6398",
     "location": "New York",
     "github": "https://github.com/thumblas",
     "linkedin": "https://linkedin.com/in/sbfirodiya"
   },
   "stats": {
-    "experience": "4+",
+    "experience": "5+",
     "projects": "10+"
   },
   "currentRole": {
     "company": "Amazon",
-    "position": "Software Development Engineer",
+    "position": "Software Development Engineer II",
     "duration": "July 2020 - Present",
     "location": "New York",
-    "description": "Launched Sponsored Display across 11 markets; re-architected a monolith into microservices; cut ad-serving latency by 50% with a high-throughput distributed cache; built geo-targeting; automated DynamoDB retention; migrated analytics to Spektr; delivered an MCP server with Amazon Q retrieval."
+    "description": "Launched Sponsored Display across 11 new markets, driving +15% advertiser adoption within 6 months; enabled config-driven launch for future markets. Re-architected a monolith into 4 microservices, cutting OpEx by 20% and boosting deployment frequency to weekly. Cut ad-serving latency by 50% via a high-throughput cache; achieved 90% cache hit rate and reduced API latency by 2s. Built geo-targeting (radius/city/postal code) enabling audience reach by location for advertisers not selling on Amazon, driving 32% adoption. Designed and built a unified platform enabling hardware engineers to manage all parts’ operations in AWS data centers from a single interface, improving efficiency and workflows. Collaborated on migrating ad performance analytics pipelines to Spektr, Amazon’s unified, privacy-compliant data catalog, by implementing Glue ETL jobs. Delivered an MCP server with Amazon Q retrieval that auto-suggests related tickets and queries, speeding incident triage. Automated DynamoDB retention via EventBridge-triggered Glue, deleting ~1TB/month stale data, saving 60% in operational costs."
   },
   "education": {
     "masters": {
       "degree": "Master of Science in Computer Science",
       "school": "Indiana University Bloomington",
-      "year": "May 2020",
-      "cgpa": "3.6"
+      "location": "Bloomington, Indiana, United States",
+      "year": "2020"
     },
     "bachelors": {
       "degree": "Bachelor of Engineering in Computer Engineering",
       "school": "Pune Institute of Computer Technology",
-      "year": "May 2017"
+      "location": "Pune, India",
+      "year": "2017"
     }
   },
   "skills": {
     "programmingLanguages": [
       { "name": "Python", "icon": "fab fa-python", "color": "text-yellow-400" },
       { "name": "Java", "icon": "fab fa-java", "color": "text-red-500" },
-      { "name": "C/C++", "icon": "fas fa-code", "color": "text-blue-400" },
-      { "name": "React", "icon": "fab fa-react", "color": "text-cyan-400" }
+      { "name": "JavaScript", "icon": "fab fa-js", "color": "text-yellow-500" },
+      { "name": "TypeScript", "icon": "fas fa-code", "color": "text-blue-500" },
+      { "name": "C", "icon": "fas fa-terminal", "color": "text-blue-400" },
+      { "name": "C++", "icon": "fas fa-code", "color": "text-blue-600" },
+      { "name": "SQL", "icon": "fas fa-database", "color": "text-orange-400" },
+      { "name": "Shell Scripting", "icon": "fas fa-terminal", "color": "text-gray-500" },
+      { "name": "HTML", "icon": "fab fa-html5", "color": "text-orange-500" },
+      { "name": "CSS", "icon": "fab fa-css3-alt", "color": "text-blue-500" },
+      { "name": "Bash", "icon": "fas fa-terminal", "color": "text-gray-700" }
     ],
     "databases": [
-      { "name": "MySQL", "icon": "fas fa-database", "color": "text-orange-500" },
       { "name": "MongoDB", "icon": "fas fa-leaf", "color": "text-green-500" },
-      { "name": "Apache Spark", "icon": "fas fa-fire", "color": "text-yellow-500" },
-      { "name": "IBM DB2", "icon": "fas fa-server", "color": "text-blue-500" }
+      { "name": "MySQL", "icon": "fas fa-database", "color": "text-orange-500" },
+      { "name": "Amazon DynamoDB", "icon": "fas fa-database", "color": "text-blue-500" },
+      { "name": "Amazon Spektr", "icon": "fas fa-database", "color": "text-amber-500" }
+    ],
+    "frameworksPlatforms": [
+      { "name": "Docker", "icon": "fab fa-docker", "color": "text-blue-400" },
+      { "name": "Kubernetes", "icon": "fas fa-dharmachakra", "color": "text-blue-600" },
+      { "name": "AWS", "icon": "fab fa-aws", "color": "text-orange-400", "description": "EventBridge, Glue, DynamoDB, S3" },
+      { "name": "GCP", "icon": "fab fa-google", "color": "text-red-400" },
+      { "name": "CI/CD", "icon": "fas fa-cogs", "color": "text-zinc-500" },
+      { "name": "Flask", "icon": "fas fa-flask", "color": "text-indigo-500" },
+      { "name": "Node.js", "icon": "fab fa-node-js", "color": "text-green-500" },
+      { "name": "React", "icon": "fab fa-react", "color": "text-cyan-400" },
+      { "name": "Next.js", "icon": "fas fa-layer-group", "color": "text-black" },
+      { "name": "FastAPI", "icon": "fas fa-bolt", "color": "text-yellow-500" },
+      { "name": "Bootstrap", "icon": "fab fa-bootstrap", "color": "text-purple-500" },
+      { "name": "jQuery", "icon": "fas fa-code", "color": "text-blue-500" }
     ],
     "machineLearning": [
-      { "name": "Scikit-learn", "icon": "fas fa-chart-line", "color": "text-green-500", "description": "Machine Learning" },
-      { "name": "TensorFlow", "icon": "fas fa-brain", "color": "text-purple-500", "description": "Deep Learning Framework" },
-      { "name": "Matplotlib", "icon": "fas fa-chart-bar", "color": "text-indigo-500", "description": "Visualization" },
-      { "name": "NumPy", "icon": "fas fa-cube", "color": "text-blue-500", "description": "Array Computing" },
-      { "name": "Pandas", "icon": "fas fa-table", "color": "text-emerald-500", "description": "Data Analysis" },
-      { "name": "PyTorch", "icon": "fas fa-fire", "color": "text-red-500", "description": "Deep Learning" },
-      { "name": "PySpark", "icon": "fas fa-bolt", "color": "text-yellow-500", "description": "Distributed Computing" }
+      { "name": "Gaussian Mixture Models", "icon": "fas fa-chart-line", "color": "text-green-600", "description": "Source separation, clustering" },
+      { "name": "Clustering", "icon": "fas fa-project-diagram", "color": "text-blue-700", "description": "Audio analytics" },
+      { "name": "Deep Neural Networks", "icon": "fas fa-brain", "color": "text-purple-600", "description": "Audio sentiment, RAVDESS" }
+    ],
+    "bigDataAnalytics": [
+      { "name": "Apache Spark", "icon": "fas fa-bolt", "color": "text-yellow-500" },
+      { "name": "Amazon Spektr", "icon": "fas fa-database", "color": "text-orange-400" },
+      { "name": "Glue ETL", "icon": "fas fa-server", "color": "text-blue-500" },
+      { "name": "Distributed Caching Systems", "icon": "fas fa-cloud", "color": "text-cyan-500" },
+      { "name": "Real-time Dashboarding", "icon": "fas fa-chart-line", "color": "text-green-500" }
     ],
     "backendDevops": [
       { "name": "Django", "icon": "fas fa-server", "color": "text-gray-500" },
-      { "name": "SpringBoot", "icon": "fas fa-spring", "color": "text-green-500" },
+      { "name": "SpringBoot", "icon": "fas fa-leaf", "color": "text-green-500" },
       { "name": "Docker", "icon": "fab fa-docker", "color": "text-blue-400" },
       { "name": "Jenkins", "icon": "fab fa-jenkins", "color": "text-red-500" },
       { "name": "Kubernetes", "icon": "fas fa-dharmachakra", "color": "text-blue-600" },
       { "name": "REST", "icon": "fas fa-network-wired", "color": "text-sky-500" },
-      { "name": "CI/CD", "icon": "fas fa-cogs", "color": "text-zinc-500" }
+      { "name": "CI/CD", "icon": "fas fa-cogs", "color": "text-zinc-500" },
+      { "name": "FastAPI", "icon": "fas fa-bolt", "color": "text-yellow-500" },
+      { "name": "Flask", "icon": "fas fa-flask", "color": "text-indigo-500" }
+    ],
+    "toolsPractices": [
+      { "name": "Git", "icon": "fab fa-git-alt", "color": "text-red-500" },
+      { "name": "Jenkins", "icon": "fab fa-jenkins", "color": "text-red-500" },
+      { "name": "Agile", "icon": "fas fa-people-arrows", "color": "text-blue-400" },
+      { "name": "SonarQube", "icon": "fas fa-search", "color": "text-gray-500" },
+      { "name": "Pytest", "icon": "fas fa-vial", "color": "text-indigo-500" },
+      { "name": "Playwright", "icon": "fas fa-play", "color": "text-green-500" }
     ]
   },
   "experiences": [
     {
       "id": "amazon",
       "company": "Amazon",
-      "position": "Software Development Engineer",
+      "position": "Software Development Engineer II",
       "location": "New York",
       "duration": "July 2020 - Present",
-      "description": "Launched Sponsored Display across 11 markets; re-architected monolith into 4 microservices; cut ad-serving latency by 50% (p95) with a distributed cache; built geo-targeting; migrated analytics pipelines to Spektr; delivered an MCP server with Amazon Q retrieval; automated DynamoDB retention via EventBridge-triggered Glue jobs.",
-      "type": "current",
+      "description": "Launched Sponsored Display across 11 new markets, driving +15% advertiser adoption within 6 months; enabled config-driven launch for future markets. Re-architected a monolith into 4 microservices, cutting OpEx by 20% and boosting deployment frequency to weekly. Cut ad-serving latency by 50% via a high-throughput cache; achieved 90% cache hit rate and reduced API latency by 2s. Built geo-targeting (radius/city/postal code) enabling audience reach by location for advertisers not selling on Amazon, driving 32% adoption. Designed and built a unified platform enabling hardware engineers to manage all parts’ operations in AWS data centers from a single interface, improving efficiency and workflows. Collaborated on migrating ad performance analytics pipelines to Spektr, Amazon’s unified, privacy-compliant data catalog, by implementing Glue ETL jobs. Delivered an MCP server with Amazon Q retrieval that auto-suggests related tickets and queries, speeding incident triage. Automated DynamoDB retention via EventBridge-triggered Glue, deleting ~1TB/month stale data and saving 60% in operational costs.",
+      "type": "fulltime",
       "color": "electric-blue"
     },
     {
@@ -82,7 +118,7 @@
       "position": "Sr. Software Engineer Intern",
       "location": "Foster City, California",
       "duration": "May 2019 - Aug 2019",
-      "description": "Worked on Digital Payments transaction processing; built a React dashboard for real-time progress tracking across teams; improved code coverage for the product codebase.",
+      "description": "Built real-time dashboards to monitor divisional team progress, improving manager and GTM visibility on feature launches. Increased code coverage across the product, cutting quality issues by 80% and enhancing long-term maintainability.",
       "type": "internship",
       "color": "electric-blue"
     },
@@ -92,7 +128,7 @@
       "position": "Associate Software Engineer",
       "location": "Pune, India",
       "duration": "July 2017 - July 2018",
-      "description": "Replaced legacy file-based installation with a database-backed approach; implemented a secure scalable REST-assured framework to automate QA unit testing in CI; containerized B2Bi and moved to production.",
+      "description": "Migrated a legacy file-based IBM product to a high‑performance SQL database, improving latency by 40% and reducing operational overhead by 30%. Containerized IBM Sterling B2B Integrator (B2Bi), cutting team setup time and ensuring consistent, replicable production deployments.",
       "type": "fulltime",
       "color": "neon-green"
     },
@@ -102,58 +138,40 @@
       "position": "Software Developer Intern",
       "location": "Pune, India",
       "duration": "Sept 2016 - April 2017",
-      "description": "Completed a PoC using MongoDB instead of Apache SOLR for Contract Management; automated workflows using bash and Python scripting in existing product.",
+      "description": "Developed a PoC replacing Apache Solr with MongoDB in IBM’s Contract Management product, improving query performance and scalability. Automated workflows with Bash and Python scripting, cutting manual processing time by 60%.",
       "type": "internship",
       "color": "neon-green"
     }
   ],
   "projects": [
     {
-      "id": "travel-guide",
-      "title": "Travel Guide",
-      "duration": "Jan 2019 - May 2019",
-      "description": "End-to-end cheapest travel plan application with microservice architecture supporting flight and cab search functionality.",
-      "technologies": ["Microservices", "Docker", "Kubernetes", "Jenkins"],
-      "highlights": ["Explored CI/CD pipeline and service discovery using Consul"],
-      "icon": "fas fa-plane",
-      "layout": "wide"
-    },
-    {
-      "id": "audio-sentiment",
-      "title": "Audio Sentiment Analysis",
-      "duration": "Aug 2018 - Dec 2018",
-      "description": "Implemented source separation using Gaussian Mixture Models and trained DNN on RAVDESS dataset for sentiment analysis.",
-      "technologies": ["ML", "DNN", "Audio Processing"],
-      "highlights": ["Gaussian Mixture Models", "RAVDESS Dataset"],
-      "icon": "fas fa-microphone",
-      "layout": "normal"
-    },
-    {
       "id": "pargrep",
       "title": "ParGrep",
       "duration": "Aug 2018 - Dec 2018",
-      "description": "Parallel file search implementation using pthreads, achieving 50% performance improvement over traditional grep.",
-      "technologies": ["C/C++", "Threading", "Performance"],
-      "highlights": ["50% faster than grep"],
+      "description": "Developed a parallelized file search utility in C using POSIX threads; achieved 50% faster search performance compared to GNU grep.",
+      "technologies": ["C", "POSIX Pthreads"],
+      "highlights": ["50% faster than GNU grep"],
       "icon": "fas fa-search",
-      "layout": "normal"
+      "layout": "normal",
+      "github": "https://github.com/thumblas/AOS-_Pargrep"
     },
     {
-      "id": "ctr-analysis",
-      "title": "Click Through Rate Analysis",
-      "duration": "July 2016 - May 2017",
-      "description": "Predicted click-through rates using CNN and Autoencoders to improve advertisement clickability and performance metrics.",
-      "technologies": ["CNN", "Autoencoders", "Deep Learning"],
-      "highlights": ["CNN Implementation", "Autoencoders"],
-      "icon": "fas fa-chart-bar",
-      "layout": "wide"
+      "id": "audio-sentiment",
+      "title": "Audio Sentiment of Telephonic Conversation",
+      "duration": "Aug 2018 - Dec 2018",
+      "description": "Implemented speaker source separation using Gaussian Mixture Models and clustering algorithms. Trained a DNN model on RAVDESS dataset to perform sentiment analysis on separated audio sources.",
+      "technologies": ["Python", "Gaussian Mixture Models", "Clustering", "Deep Neural Networks", "RAVDESS Dataset"],
+      "highlights": ["Speaker separation", "Sentiment analysis"],
+      "icon": "fas fa-microphone",
+      "layout": "normal",
+      "github": "https://github.com/thumblas/Conv-TasNet"
     },
     {
       "id": "xodia-ai",
-      "title": "Xodia AI Competition",
-      "duration": "July 2014 - May 2017",
-      "description": "AI competition platform between programmed bots with judging framework, sandbox environment, and server-side rendering.",
-      "technologies": ["Django", "AI", "Game Development"],
+      "title": "Xodia – AI Bot Competition Platform",
+      "duration": "July 2014 – May 2017",
+      "description": "Engineered a platform for competitive gaming between user-programmed bots, allowing real-time match viewing and automated code deployment. Developed a judging system with sandboxing, validation, and server-side rendering using Django for three distinct games: Enthronement, Grow, and Ensquare.",
+      "technologies": ["Django", "Python", "Sandbox Security", "Web Rendering"],
       "highlights": ["Enthronement", "Grow", "Ensquare"],
       "games": [
         { "name": "Enthronement", "icon": "fas fa-crown", "color": "text-yellow-500" },
@@ -161,12 +179,13 @@
         { "name": "Ensquare", "icon": "fas fa-square", "color": "text-blue-500" }
       ],
       "icon": "fas fa-robot",
-      "layout": "tall"
+      "layout": "tall",
+      "github": "https://github.com/thumblas/Xodia-"
     }
   ],
   "publications": [
     {
-      "title": "Don’t separate, Learn to Remix: End-to-End Neural Remixing with Joint Optimization"
+      "title": "Don’t Separate, Learn To Remix: End-To-End Neural Remixing With Joint Optimization"
     }
   ]
 }

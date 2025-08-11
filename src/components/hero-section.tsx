@@ -37,6 +37,7 @@ export default function HeroSection() {
     name: string;
     tagline: string;
     subtitle: string;
+    resume?: string;
     email: string;
     phone: string;
     location: string;
@@ -109,7 +110,7 @@ export default function HeroSection() {
                 Contact Me
               </button>
               <a
-                href="/resume.pdf"
+                href={user.resume || "/resume.pdf"}
                 className="glassmorphism text-gray-900 hover:text-gray-950 font-semibold py-3 px-6 rounded-xl transition-all duration-300 hover:shadow-md"
                 data-testid="button-cta-experience"
               >

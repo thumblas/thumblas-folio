@@ -84,7 +84,20 @@ export default function ProjectsSection() {
                 <div className="mb-6">
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-2xl font-bold text-gray-900">{project.title}</h3>
-                    <div className="text-sm text-[--primary] font-mono">{project.duration}</div>
+                    <div className="flex items-center gap-3">
+                      <div className="text-sm text-[--primary] font-mono">{project.duration}</div>
+                      {project.github && (
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center justify-center w-9 h-9 rounded-lg border border-[--border] hover:border-[--primary] transition-colors"
+                          aria-label={`View ${project.title} on GitHub`}
+                        >
+                          <i className="fab fa-github text-gray-700" />
+                        </a>
+                      )}
+                    </div>
                   </div>
                   <p className="text-gray-700 mb-6">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-6">
